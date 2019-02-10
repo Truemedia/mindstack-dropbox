@@ -16,7 +16,7 @@ const watcher = watch([txtGlob, imgGlob], {events: 'add'});
 // Move added files to dropbox
 watcher.on('add', function(filePath, stats) {
     let cloudPath = `/${filePath}`;
-    fs.readFile(path.join(__dirname, cloudPath), 'utf8', function (err, contents) {
+    fs.readFile(path.join(__dirname, cloudPath), function (err, contents) {
       if (err) { console.log('Error: ', err); }
 
       // This uploads test.txt to the root of your dropbox
