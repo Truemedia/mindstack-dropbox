@@ -19,5 +19,9 @@
   "dependencies": {
     "dropbox": "^4.0.15",
     "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "gulp": "^4.0.0"
   }
 }
