@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Truemedia/mindstack-dropbox/issues"
   },
-  "homepage": "https://github.com/Truemedia/mindstack-dropbox#readme"
+  "homepage": "https://github.com/Truemedia/mindstack-dropbox#readme",
+  "dependencies": {
+    "dropbox": "^4.0.15",
+    "node-fetch": "^2.3.0"
+  }
 }
