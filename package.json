@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Truemedia/mindstack-dropbox#readme",
   "dependencies": {
     "dropbox": "^4.0.15",
+    "dropbox-stream": "^3.0.0",
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {
